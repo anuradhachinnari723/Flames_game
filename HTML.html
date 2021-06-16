@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Flames</title>
+    
+    <link rel="stylesheet" href="CSS.css">
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <h1 style="color:dodgerblue"><b>Flames</b></h1>
+    <button class="block"></button>
+    <div class="login-box" id="error">
+        <div class="textbox">
+            <i class="fas fa-user" style="color:black"></i>
+            <input type="text" id="Y_name" placeholder="Your Name" style="color:black" required>
+        </div>
+
+        <div class="textbox">
+            <i class="fas fa-user" style="color:red"></i>
+            <input type="text" id="c_name" placeholder="Your Crush Name" style="color:red" required>
+        </div>
+        <div id="error"
+             style="text-align: center; margin: 10%;background-color: #000; opacity: 0.8;border-radius: 13px; border: solid 1px violet; visibility: hidden;">
+
+        </div>
+        <input type="submit" class="btn" value="Check Relation" onclick="check()">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+﻿@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+body {
+    font-family: sans-serif;
+    /* Center and scale the image nicely */
+    background-image: url("https://healthyburnett.org/wp-content/uploads/2019/02/Teen-DV.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block {
+    display: block;
+    width: 110px;
+    border: grey;
+    background-color: hotpink;
+    padding: 2px 2px;
+    margin: 8px 0;
+    margin-left: 360px;
+}
+
+
+.login-box {
+    width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.login-box h1 {
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #4caf50;
+    margin-bottom: 10px;
+    padding: 13px 0;
+}
+
+.textbox {
+    width: 70%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #4caf50;
+    
+}
+
+.textbox i {
+   width: 46px;
+   float: left;
+   text-align: center;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 70%;
+    float: left;
+    margin: 0 10px;
+    
+    }
+.btn {
+    width: 45%;
+    background: green;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 82px 0;
+    margin-right: 10%;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 50px auto;
+    margin-top:0px;
+    border:hidden;
+}
+
+h1 {
+    margin: 8px 0;
+    margin-left: 360px;
+    margin-top: 120px;
+    text-decoration-color:pink;
+}
