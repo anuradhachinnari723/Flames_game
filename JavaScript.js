@@ -4,7 +4,6 @@
 
 
 function check() {
-    alert('Press OK to continue..! ');
     var a = document.getElementById("Y_name").value;
     var b = document.getElementById("c_name").value;
     lena = a.length;
