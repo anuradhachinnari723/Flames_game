@@ -11,7 +11,7 @@ function check() {
     a = a.toLowerCase();
     b = b.toLowerCase();
     if (a == "" || b == "") {
-        alert("Enter the names");
+        alert("Enter the full names");
     }
     if (!a.match("^[a-zA-Z]+$") || !b.match("^[a-zA-Z]+$") || (lena < 3 || lenb < 3)) {
         document.getElementById("error").innerHTML = "OOPS! Enter the names properly";
