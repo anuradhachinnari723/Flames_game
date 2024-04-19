@@ -50,6 +50,7 @@ h1 {
 
 .textbox {
     width: 70%;
+    top: 40%;
     overflow: hidden;
     font-size: 20px;
     padding: 8px 0;
