@@ -35,7 +35,6 @@ h1 {
 .login-box {
     width: 380px;
     position: absolute;
-    top: 55%;
     left: 30%;
     transform: translate(-50%,-50%);
     color: white;
